@@ -44,6 +44,7 @@
     <Compile Include="ladder_designer\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ladder_designer_app\static\styles_index.css" />
     <Content Include="ladder_designer_app\templates\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -51,6 +52,7 @@
     <Folder Include="ladder_designer\" />
     <Folder Include="ladder_designer_app\" />
     <Folder Include="ladder_designer_app\migrations\" />
+    <Folder Include="ladder_designer_app\static\" />
     <Folder Include="ladder_designer_app\templates\" />
   </ItemGroup>
   <ItemGroup>
