@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ladder_designer_app\admin.py" />
+    <Compile Include="ladder_designer_app\apps.py" />
+    <Compile Include="ladder_designer_app\migrations\__init__.py" />
+    <Compile Include="ladder_designer_app\models.py" />
+    <Compile Include="ladder_designer_app\tests.py" />
+    <Compile Include="ladder_designer_app\views.py" />
+    <Compile Include="ladder_designer_app\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="ladder_designer\__init__.py" />
     <Compile Include="ladder_designer\settings.py" />
@@ -37,10 +44,14 @@
     <Compile Include="ladder_designer\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ladder_designer_app\templates\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ladder_designer\" />
+    <Folder Include="ladder_designer_app\" />
+    <Folder Include="ladder_designer_app\migrations\" />
+    <Folder Include="ladder_designer_app\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
