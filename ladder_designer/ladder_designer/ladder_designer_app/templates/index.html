@@ -1,9 +1,37 @@
+﻿<!DOCTYPE html>
+{% load staticfiles %}
 <html>
-<head><title></title></head>
+    <head>
+        <title>Онлайн конструктор лестниц</title>
 
-<body>
+        <meta charset="utf-8" /> 
+        
+        <link rel="stylesheet" type="text/css"  href="{% static 'styles/styles_index.css' %}" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+        
+    </head>
+<body class="the-main-container">
+<div id="the-main-container">
+    <div id="information-block" class="information-block">
+            Онлайн конструктор лестниц
+    </div>
 
-{{ content }}
+    <section>
+            <div id="ladder-designer" class="ladder-designer">
+            </div>
+            <div>
+                <div id="selected-configuration" class="selected-configuration">
+                </div>
+                <div id="the-scheme" class="the-scheme">
+                </div>
+            </div>
+    </section>
+
+
+
+   
+</div>
+
 
 </body>
 </html>

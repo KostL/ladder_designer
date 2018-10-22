@@ -1,3 +1,44 @@
-body
+  .the-main-container
 {
+    background: #f4f4f4
 }
+
+.selected-configuration {
+    height: 200px;
+    width: 800px;
+    background: #ffffff;
+    box-shadow: 2px 2px 3px #cacaca;
+    margin: 10px;
+}
+
+.information-block {
+    height: 100px;
+    background: #2e2d30;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.the-scheme {
+    width: 800px;
+    margin: 10px;
+    height: 500px;
+    background: #ffffff;
+    box-shadow: 2px 2px 3px #cacaca;
+}
+
+.ladder-designer {
+    width: 300px;
+    height: 710px;
+    background: #ffffff;
+    box-shadow: 2px 2px 3px #cacaca;
+    margin-top: 10px;
+}
+section {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
